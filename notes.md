@@ -4,8 +4,8 @@ I am using an command line Email app called Mutt but was unable to get it in cod
 All other functionality is there.
 
 # Sources
-..*(https://linuxize.com/post/bash-exit/)
-..*(https://www.howtogeek.com/howto/30184/10-ways-to-generate-a-random-password-from-the-command-line/)
-..*(https://linuxize.com/post/how-to-create-users-in-linux-using-the-useradd-command/)
-..*(https://www.cyberciti.biz/faq/rhel-debian-force-users-to-change-passwords/)
-..*(https://www.techrepublic.com/article/how-to-create-users-and-groups-in-linux-from-the-command-line/)
+..* (https://linuxize.com/post/bash-exit/)
+..* (https://www.howtogeek.com/howto/30184/10-ways-to-generate-a-random-password-from-the-command-line/)
+..* (https://linuxize.com/post/how-to-create-users-in-linux-using-the-useradd-command/)
+..* (https://www.cyberciti.biz/faq/rhel-debian-force-users-to-change-passwords/)
+..* (https://www.techrepublic.com/article/how-to-create-users-and-groups-in-linux-from-the-command-line/)
