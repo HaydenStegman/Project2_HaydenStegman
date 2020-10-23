@@ -15,16 +15,19 @@ else
 		# Checks if the user exists
 		if [ "$(cat /etc/passwd | cut -d ':' -f 1 | grep $user)" = "$user" ]; then
 			# If the user exists, update the password
-			echo "User Exists: Updating Password"
+			title="PopOS Password Updated"
 			$(echo "$user:$paswrd" | chpasswd)
 		else
 			# Else Create a new user
-			echo "New user added"
+			title="PopOS Account Created"
 			useradd -m -g CSI230 -s /bin/bash $user -p $paswrd
 			chage -d 0 $user
 		fi
-		echo "|------------------|"
-		
+
+		# Create the message to send and send the email
+		#cat > email_msg.txt
+		#echo "An account on PopOS was created for you! Username: $user - Password: $paswrd" > email_msg.txt
+		#$(mutt -s "$title" $user@gmail.com < ~/email_msg.txt
 	done
 fi
 exit
